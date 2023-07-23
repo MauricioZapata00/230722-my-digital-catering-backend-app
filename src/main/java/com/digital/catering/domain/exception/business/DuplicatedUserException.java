@@ -6,8 +6,7 @@ import lombok.Getter;
 public class DuplicatedUserException extends RuntimeException{
 
     public enum DuplicatedUserType {
-        EMAIL_ALREADY_EXIST("Email already exist"),
-        PERSON_ALREADY_EXIST("Person already exist");
+        EMAIL_ALREADY_EXIST("Email already exists");
 
         private final String message;
 

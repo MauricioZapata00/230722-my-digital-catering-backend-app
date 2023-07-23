@@ -8,6 +8,8 @@
 
 - https://www.youtube.com/watch?v=9QDsbuPQNes&list=PLj2IVmcP-_QNae4kZpMNk-yz1cNFyuRqS&index=16
 
+- https://github.com/elivarl/arquitectura-hexagonal-ejemplo-practico/tree/main
+
 ---------------------------------------------------------------------------------------------------------
 
 =================================================
