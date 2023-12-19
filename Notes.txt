@@ -10,6 +10,8 @@
 
 - https://github.com/elivarl/arquitectura-hexagonal-ejemplo-practico/tree/main
 
+- https://github.com/miw-upm/apaw-practice/tree/develop/src/main/java/es/upm/miw/apaw_practice
+
 ---------------------------------------------------------------------------------------------------------
 
 =================================================
