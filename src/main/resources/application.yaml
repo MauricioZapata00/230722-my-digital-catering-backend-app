@@ -1,0 +1,18 @@
+---
+server:
+  port: 8100
+
+spring:
+  application:
+    name: 'digital-catering-service'
+  data:
+    mongodb:
+      host: ${MONGO_DATABASE_HOST}
+      port: ${MONGO_DATABASE_PORT}
+      database: ${MONGO_DATABASE_NAME}
+      username: ${MONGO_DATABASE_USER_NAME}
+      password: ${MONGO_DATABASE_PASSWORD}
+  r2dbc:
+    url: ${MYSQL_DATABASE_URL}
+    username: ${MYSQL_DATABASE_USER_NAME}
+    password: ${MYSQL_DATABASE_PASSWORD}

@@ -5,9 +5,11 @@ import com.digital.catering.domain.ports.business.ClientRepository;
 import com.digital.catering.infrastructure.data.mongo.document.ClientDocument;
 import com.digital.catering.infrastructure.data.mongo.repository.ClientPersistence;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.context.annotation.ApplicationScope;
 import reactor.core.publisher.Mono;
 
+@Repository
 @ApplicationScope
 @RequiredArgsConstructor
 public class ClientPersistenceAdapter implements ClientRepository {
