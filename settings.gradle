@@ -1,1 +1,11 @@
-rootProject.name = 'digital.catering'
+rootProject.name = 'digital-catering'
+
+include('domain:exceptions')
+include('domain:model')
+include('domain:service')
+include('application:useCase')
+include('application:ports')
+include('infrastructure:rest')
+include('infrastructure:data:sql')
+include('infrastructure:data:nosql')
+include('infrastructure:runner')

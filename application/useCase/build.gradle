@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation project(':domain:model')
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation 'io.projectreactor:reactor-core:3.6.1'
+    // https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
+}

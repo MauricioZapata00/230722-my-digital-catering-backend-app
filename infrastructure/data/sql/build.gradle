@@ -1,0 +1,22 @@
+plugins {
+    id 'java-library'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':domain:model')
+    implementation project(':application:ports')
+    // https://mvnrepository.com/artifact/org.springframework.data/spring-data-r2dbc
+    implementation 'org.springframework.data:spring-data-r2dbc:3.2.1'
+    // https://mvnrepository.com/artifact/io.asyncer/r2dbc-mysql
+    implementation 'io.asyncer:r2dbc-mysql:1.0.5'
+    implementation 'org.projectlombok:lombok:1.18.30'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation 'io.projectreactor:reactor-core:3.6.1'
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation 'org.springframework:spring-context:6.1.2'
+    // https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
+}

@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.1.2'
+    id 'io.spring.dependency-management' version '1.1.2'
+}
+
+group = 'com.booking.digital.catering'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':domain:model')
+    implementation project(':domain:service')
+    implementation project(':application:useCase')
+    implementation project(':application:ports')
+    implementation project(':infrastructure:rest')
+    implementation project(':infrastructure:data:sql')
+    implementation project(':infrastructure:data:nosql')
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
