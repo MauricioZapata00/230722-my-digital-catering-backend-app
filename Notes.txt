@@ -12,6 +12,18 @@
 
 - https://github.com/miw-upm/apaw-practice/tree/develop/src/main/java/es/upm/miw/apaw_practice
 
+Manage tokens with spring webflux:
+
+- https://medium.com/@mvalenciaminota/protege-tu-api-implementando-spring-security-y-jwt-en-spring-boot-webflux-parte-1-fcd1208498de
+
+- https://medium.com/@mvalenciaminota/protege-tu-api-implementando-spring-security-y-jwt-en-spring-boot-webflux-parte-2-ca330d85ee59
+
+- https://medium.com/@mvalenciaminota/protege-tu-api-implementando-spring-security-y-jwt-en-spring-boot-webflux-parte-3-9da55245dbba
+
+- https://medium.com/@mvalenciaminota/protege-tu-api-implementando-spring-security-y-jwt-en-spring-boot-webflux-parte-4-d1d8dfab64fb
+
+- https://github.com/mvm11/webflux_security/tree/main/src
+
 ---------------------------------------------------------------------------------------------------------
 
 =================================================
